@@ -6,14 +6,10 @@ describe('Page Object Model', () => {
     it('should login successfully', () => {
         cy.visit('https://practicetestautomation.com/practice-test-login/')
        
-
         Homepage.LaunchApplication()
         Homepage.Typeusernamepwd()
-
         Homepage.LoginButton()
-
         FindTitle.element.titletext()
-
         Menu.GoToMenu()
 
     })
