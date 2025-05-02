@@ -7,9 +7,7 @@ describe('Page Object Model', () => {
         cy.visit('https://practicetestautomation.com/practice-test-login/')
        
 
-        // Open youtype
         Homepage.LaunchApplication()
-        // search in youtube
         Homepage.Typeusernamepwd()
 
         Homepage.LoginButton()
@@ -18,12 +16,6 @@ describe('Page Object Model', () => {
 
         Menu.GoToMenu()
 
-        // Menu.element.GoToMenu()
-
-            // // open playlist
-        // Resultpage.goToPlaylist()
-        // // validating the playlist title
-        // PlaylistPage.element.playlisttitle().should('contain', 'Cypress E2E')
     })
 
 })
