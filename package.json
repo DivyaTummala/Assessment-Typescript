@@ -2,7 +2,11 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "cypress": "^14.3.2",
+    "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
